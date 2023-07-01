@@ -1,0 +1,119 @@
+Topic:- Strings In java
+
+    > Strings represents the collection of sequence of characters.
+    > Strings are Immutable in nature.
+
+
+1. String Immutability
+    
+        In Java, strings are immutable, meaning that once a string object is created, its value cannot be changed. Any operation on a string results in the creation of a new string object. This immutability ensures thread-safety and allows strings to be used as keys in hash-based data structures.
+
+
+2. String creation
+    > we can create a string in Java by assigning a value to a String variable using double quotes
+        - String str = "Hello, World!";
+    
+    > we can create a string using the "new" keyword and the "String constructor":
+        - String str = new String("Hello, World!");
+
+3. String Input
+    > next() method.
+        - For single word input the "white space "is treated as end.
+        - "White Space" end of the sentence.
+                
+        - Example:-
+
+            Scanner sc=new Scanner(System.in);
+            String str=sc.next();
+
+            (hello)  valid 
+            (hello hii)     Invalid.
+    
+    > nextLine() method
+        - If we need to include the space in between two words in the input we use this method.
+        
+        - Example
+
+            Scanner sc=new Scanner(System.in);
+            String str=sc.nextLine();
+
+
+4. String Manipulation
+    > The String class provides numerous methods for manipulating and working with strings. 
+    
+        a) Concatenation
+        
+        - Adding of two string as an single string.
+            Example:-
+             str1="Hello";
+             str2="world";
+             
+             str=str1+str2;
+
+        - concat method()
+            str1.concat(str2);
+
+        b)length() method
+            finding the length.
+            - int length=str.length();
+
+        c)charAt(index) 
+            -  Able to print the character.
+            Example:- 
+            for(int i=0;i<str.length();i++){
+                System.out.println(str.charAt(i));
+            }
+        
+        d)compareTo
+            - If we need to compare to string.
+            Example:- 
+
+            - if(s1.compareTo(s2));
+            - returns value;
+
+            conditions:-
+
+                "s1>s2" returns "+ve"value.
+                "s1==s2" returns "0" value.
+                "s1<s2" returns "-ve" value.
+
+
+            
+        
+        e) when equal(==)
+            - "--" will not work 
+            - if(new String("Tony")==new String("Tony"))
+            - In java Strings are Objects
+
+        d)equals()
+            - str1.equals(str2)
+            - returns true or false.
+
+        e)substring(begIndex,endIndex)
+            - str.substring(begIndex,EndIndex+1);
+        
+        f) toUpperCase();
+            - converts to uppercase.
+            - strNew=toUpperCase(str);
+        
+        g)toLowerCase();
+            - converts toLowerCase.
+            - strNew=toLowerCase(str);
+        h)trim()
+
+        i)split()
+
+    
+ 5. conversion of datatype
+
+    > String to Integer
+        - parseInt()
+        example:- 
+            int numberInteger.parseInt(str)
+
+    > Integer to String
+        - toString()
+        example:- 
+        String str=Integer.toString(100);
+
+

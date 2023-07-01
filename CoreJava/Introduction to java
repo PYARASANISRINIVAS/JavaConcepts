@@ -1,0 +1,102 @@
+Topic:- History of java 
+
+    > Java is an "Object Oriented Programming Language" and also an "High Level Language".
+    > Java was Developed by the "James Gosling".In Sun Micro System.
+    > Initially java was named as Oak. Later they changed to the java due to the patent issue.
+    > Java was officially developed in the year 1995.
+    > write Once,compile Once,Run anywhere
+    > 
+
+Topic:- Features of Java (12)
+
+    > Simple
+    > object oriented
+    > Portable
+    > Platform Independent (WORA)
+    > Secure
+    > Robust
+    > Architecture Neutral
+    > Interpreted
+    > Mutithreading
+    > High Performance
+    > Distributed
+    > Dynamic
+
+Topic:- Platform (or) Edition 
+
+    > Standard Edition
+        - For desktop applications.
+        - eg:-Antivirus,Media Player.
+
+    > Java Enterprise Edition (J2EE)
+        - For building the "web application".
+
+    > Java Micro Edition 
+        -To develop the mobile Edition
+
+Note:- 
+    1) Is java is compiled or the Interpreted?
+
+        - Java is both the compiled and the Interpreted language to make it platform independent.
+
+    2)what is JDK,JRE,JVM?
+    
+    > JDK ( Java development and includes the tools and libraries needed to write and compile Java code )
+
+    Theory:- 
+
+        - JDK (Java Development Kit): The JDK is a software development kit that includes all the tools necessary for developing Java applications. 
+    
+        - It contains the Java compiler (javac), which is used to compile Java source code into bytecode. 
+    
+        - The JDK also includes other development tools, such as the debugger (jdb), documentation generator (javadoc), and various utility programs. 
+    
+        - It provides libraries and APIs that developers can use to build Java applications.
+    
+        In summary, the JDK is used by developers to write, compile, and debug Java code.
+
+    > JRE ( The JRE is used for running Java applications and provides the necessary runtime environment )
+    
+    Theory:-
+
+        - JRE (Java Runtime Environment): The JRE is a runtime environment that is needed to run Java applications.
+    
+        - It includes the JVM (Java Virtual Machine) and the Java class libraries. When you install the JRE, you get everything needed to run Java programs.
+
+        - but you don't have the development tools like the compiler and debugger. 
+
+        - The JRE is used by end users who want to run Java applications on their systems. It provides the necessary runtime support for executing Java bytecode.
+    
+    > JVM (JVM is the component within the JRE that interprets and executes Java bytecode.)
+
+    Theory:-
+
+        - JVM (Java Virtual Machine): The JVM is a virtual machine that executes Java bytecode.
+
+        - The JVM is responsible for 
+            1. interpreting the bytecode
+            2. managing memory
+            3. providing runtime services such as automatic garbage collection.
+            It abstracts the underlying hardware and operating system.
+
+        - allowing Java programs to be executed in a platform-independent manner. 
+
+        - The JVM translates the bytecode into machine code that can be     understood  by the specific system it is running on. 
+
+        The JVM is a key factor in enabling Java's "write once, run anywhere" principle.
+
+Topic:- Java Development Setup.
+
+Topic :- Java Syntax and and Structure.
+
+    - Refer 
+        Programs folder --> Syntax.java
+
+Topic :- Different ways to print stateent
+
+    - System.out.println();
+    - System.out.print(""); // will not allow the void.
+    - System.out.printf(""); // will not allow the void.
+
+
+    

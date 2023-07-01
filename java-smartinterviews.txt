@@ -1,0 +1,183 @@
+ 
+5.) how to scan the input from the console?
+
+import java.util.*;
+class Temp {
+    public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+String str=sc.next();
+String str1=sc.nextLine();
+
+
+    }
+    
+}
+
+
+6) sum of two numbers?
+
+import java.util.*;
+class Temp {
+    public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+int b=sc.nextInt();
+System.out.println(a+b);
+
+    }
+    
+}
+
+10)variable  ----------> camelCase   //noun
+    class ---------->PascalCase     //nouns
+    method--------->CamelCase       //verbs
+    Interfaces--------> adjectives
+    Constants-----------> [ EVRERY THING IS CAPITAL SEPERATED BY THE _]     MAX_VALUE
+
+    11) Arrays--------------------------------------Refernce datatypes/objects
+
+    int arr[]; creating the reference;
+   // thing that point to the object "arr=new int[3];" //thing that creating the object;
+    int b[]={1,2,3,4};
+    arr.length()-------function in the object.
+    arr.length----------variable in the object.
+
+
+    11)String---------------------Primitive datatype,immutable
+    String str="srinivas";
+    String str=new String("srinivas);
+    str.charAt(0);  //char at 0th index.
+    str.length(); //why function in string why not in array?
+    TO make the String mutable we can make use if the StringBuilder.
+12)loops
+    for each loop.
+13) class---> data along with the functions.
+                template occupy no memory
+14)object---> instance of the class.
+                to create we need the reference variable ,new keyword and the construnctor.
+                for reference variable the memory is allocated in stack like the( type,hashcode).
+                the ojects will be stored in the heap and it has some hashcode.
+15) what is the instance variable?
+Instance variables, also known as instance fields or member variables, 
+are variables defined within a class but outside of any method or constructor. 
+    they are initialized by default we can acess directly.
+16)we need to create the object if we want to acess the non static method with the static method.
+17) constructor-----------same name as class,no return type,called only when object is created.
+    get invoked first.
+    constuctor overloading ----multiple methods with different parameters.
+    TODO: constructor chaining.
+          construcot chaining.
+18)static--------non acess modifier which is used for the variable and the methods.
+        from the instance method we can use any methods which may be static or not.
+        but from the static method to acess non static we need to create the object to acess them.
+19) method overloading----
+    muliple function with same name but withdifferent numbres of argument
+    return type may or may not same.
+20)this---example
+
+
+import java.util.*;
+class Hari{
+    Hari(){
+        System.out.println(this);
+    }  
+    void fun(){
+
+    }
+}
+class Temp {
+    public static void main(String[] args){
+        Hari obj=new Hari();
+        System.out.println(obj);
+    }
+    
+}
+
+
+
+
+-->program 2 copy the data
+
+
+import java.util.*;
+class Hari{
+    int a;
+    int b;
+    Hari(){
+
+    }
+    Hari(int x,int y){
+        this.a=x;
+        this.b=y;
+
+    }
+
+    void copy(Hari o){
+        o.a=this.a;
+        o.b=this.b;
+
+    }
+}
+class Temp {
+    public static void main(String[] args){
+        Hari o=new Hari(4,5);
+        Hari o2=new Hari();
+        o.copy(o2);
+        System.out.println(o2.a+" "+o2.b);
+
+    }
+    
+}
+
+
+
+
+Inheritance----------------------------->
+Has a Relation
+
+
+import java.util.*;
+class Hari{
+    int b=10;
+}
+class shyam{
+
+    Hari obj1=new Hari();
+}
+class Temp {
+    public static void main(String[] args){
+        shyam obj2=new shyam();
+        System.out.println(obj2.obj1.b);
+
+    }
+    
+}
+
+
+
+println-----------(class)printStream
+System-------------->(package).lang
+
+System.out.pritln()   ?
+
+
+
+---> Is a relation
+protected
+private
+extends.
+
+
+method over riding
+upcasting and downcasting and object class(super class of the object class)
+abstract class 
+interfaces
+
+
+o1=
+
+
+
+
+

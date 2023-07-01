@@ -1,0 +1,33 @@
+Topic:-Type  casting and conversion
+
+    > It is very common to assign the value of one datatype to another type.
+    > type conversion, also known as type casting, allows you to convert a value of one data type to another. 
+
+    There are two type of converstion
+    -> Implicit conversion / Widening
+    -> Explicit conversion / Narrowing
+
+> Implicit conversion 
+
+    The Automatic conversion is possible only if two conditions are met
+        - Two types are compatible.
+        - The destination type is larger than source type.
+        - converting a smaller type to a larger type size
+
+        - byte -> short -> char -> int -> long -> float -> double
+
+> Explicit conversion
+
+    - If Automatic conversion is not possible.Then we will use the Manual conversion.
+    - To create the conversion between two Incompatible types.
+        Syntax:- (target-type)value.
+
+    - double -> float -> long -> int -> char -> short -> byte
+    
+    Example:- byte b;
+              int i=257;
+              double d=323.142;
+              b=(byte)i;
+              b=(byte)d;
+              i=(int)d;
+            

@@ -1,0 +1,87 @@
+
+                                             Core Java Syllabus
+
+1. Introduction to Java
+   - History and features of Java
+   - Java Virtual Machine (JVM) architecture
+   - Java development environment setup
+   - Java syntax and structure
+   - Writing and executing a basic Java program
+
+----------------------Basics of the java----------------------------
+
+2. Variables and Data Types
+   - Primitive data types (int, double, boolean, etc.)
+   - Declaring and initializing variables
+   - Type casting and conversion
+   - String manipulation
+
+3. Operators and Expressions
+   - Arithmetic operators
+   - Relational and logical operators
+   - Conditional (ternary) operator
+   - Precedence and associativity
+
+4. Control Flow
+   - Conditional statements (if, if-else, switch)
+   - Looping statements (while, do-while, for)
+   - Break and continue statements
+   - Introduction to control flow structures
+
+5. Arrays
+   - Declaring and initializing arrays
+   - Accessing array elements
+   - Array length and traversal
+   - Array manipulation (sorting, searching)
+
+6. Methods
+   - Defining and calling methods
+   - Method parameters and return types
+   
+   - Recursion
+
+----------------------------------OOPS Concepts-----------------------------------------------------------
+
+7. Object-Oriented Programming (OOP) Basics
+   - Classes and objects
+   - Constructors
+   - Encapsulation, inheritance, and polymorphism
+   - Understanding access modifiers (public, private, protected) and packages.
+
+8. Inheritance and Polymorphism
+   - Inheritance relationships (extends, super)
+   - Method overriding
+   - Method overloading
+   - Polymorphism and dynamic method dispatch
+   - Abstract classes and interfaces
+   - Nested classes (static, inner, anonymous)
+   - Enumerations and their usage
+
+9. Exception Handling
+   - Understanding exceptions and error handling
+   - Handling exceptions with try-catch blocks
+   - Throwing and propagating exceptions
+   - Custom exception classes
+   - Finally block and resource management (try-with-resources)
+
+10. Introduction to Java Collections Framework
+    - Overview of collections 
+    - Working with ArrayList, LinkedList, HashSet, and HashMap
+    - Iterating over collections
+    - Sorting and searching collections
+    - Using collections effectively in project development
+    
+11. File I/O Operations
+    - File handling in Java
+    - Reading and writing text files
+    - Reading and writing binary files
+    - File handling classes (File, FileReader, FileWriter, etc.)
+    - Exception handling in file I/O operations
+
+12. Introduction to GUI Programming
+    - Introduction to Swing and JavaFX
+    - Creating windows, frames, and dialogs
+    - Event handling and listeners
+    - Layout management and UI components
+    - Building simple graphical user interfaces
+    - Event-driven programming and event handling
