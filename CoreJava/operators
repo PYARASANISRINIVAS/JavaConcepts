@@ -1,0 +1,64 @@
+Topic:- Operator
+
+1. Arithmetic Operators:
+   Arithmetic operators perform mathematical calculations on numeric operands.
+
+   - Addition: `+`
+   - Subtraction: `-`
+   - Multiplication: `*`
+   - Division: `/`
+   - Modulus (remainder): `%`
+   - Increment: `++`
+   - Decrement: `--`
+
+2. Assignment Operators:
+   Assignment operators are used to assign values to variables.
+
+   - Assignment: `=`
+   - Addition assignment: `+=`
+   - Subtraction assignment: `-=`
+   - Multiplication assignment: `*=`
+   - Division assignment: `/=`
+   - Modulus assignment: `%=`
+
+3. Comparison Operators:
+   Comparison operators are used to compare values and determine the relationship between them. They return a boolean result (`true` or `false`).
+
+   - Equal to: `==`
+   - Not equal to: `!=`
+   - Greater than: `>`
+   - Less than: `<`
+   - Greater than or equal to: `>=`
+   - Less than or equal to: `<=`
+
+4. Logical Operators:
+   Logical operators are used to perform logical operations on boolean expressions.
+
+   - Logical AND: `&&`
+   - Logical OR: `||`
+   - Logical NOT: `!`
+
+5. Bitwise Operators:
+   Bitwise operators perform operations on individual bits of binary representations of operands.
+
+   - Bitwise AND: `&`
+   - Bitwise OR: `|`
+   - Bitwise XOR (exclusive OR): `^`
+   - Bitwise NOT: `~`
+   - Left shift: `<<`
+   - Right shift: `>>`
+   - Unsigned right shift: `>>>`
+
+6. Ternary Operator:
+   The ternary operator (`?:`) is a shorthand conditional operator that evaluates a condition and returns one of two expressions based on the result.
+
+   
+   condition ? expression1 : expression2
+   
+
+7. Instanceof Operator:
+   The `instanceof` operator checks if an object is an instance of a specific class or implements a specific interface.
+
+  
+   object instanceof ClassName
+  

@@ -1,0 +1,70 @@
+ Methods allow us  to encapsulate a specific piece of code and give it a name. 
+ This makes your code modular, reusable, and easier to understand and maintain.
+
+
+A method in Java consists of a set of instructions that perform a specific task or operation. 
+It can take input parameters, perform computations, and return a result. 
+
+
+1.Method consists :- 
+
+   - Return Type: This specifies the type of value the method returns. 
+        - If the method doesn't return anything, the return type is `void`.
+   - Method Name: The name you choose for the method, following Java naming conventions.
+   - Parameter List: The list of input parameters (optional) the method accepts. 
+        - Parameters are variables that hold values passed to the method when it is called. 
+            You specify the type and name of each parameter.
+
+   returnType methodName(parameterType1 parameter1, parameterType2 parameter2, ...) {
+       // Method body
+   }
+   
+
+2. Method Invocation:
+   To use a method, you need to invoke (call) it. 
+   Invocation involves specifying the method's name along with any necessary arguments (values) for the parameters.
+   optionally capturing or using the method's return value.
+
+   
+   returnType result = methodName(argument1, argument2, ...);
+    - `returnType`: If the method returns a value, you can capture and assign it to a variable of the corresponding return type.
+    - `methodName`: The name of the method you want to invoke.
+    - `argument1, argument2, ...`: The values you provide as arguments for the method's parameters. The number, types, and order of arguments must match the method's parameter list.
+
+3. Method Body:
+   The method body is enclosed within curly braces `{}`. It contains the actual implementation of the method, consisting of statements and computations that define the method's behavior.
+
+   
+   returnType methodName(parameterType1 parameter1, parameterType2 parameter2, ...) {
+       // Method body statements
+   }
+   
+
+   Inside the method body, you can include any valid Java code, such as variable declarations, conditional statements, loops, and other method invocations.
+
+4. Return Statement:
+   If a method has a return type other than `void`, it must include a `return` statement to specify the value to be returned to the caller. The `return` statement also terminates the method's execution and control flow is returned to the caller.
+
+   
+   return expression;
+   
+
+   - `expression`: The value to be returned, which must match the specified return type. The expression can be a variable, constant, or any valid Java expression.
+
+5. Method Overloading:
+   Java supports method overloading, where you can define multiple methods with the same name but different parameter lists. The compiler determines which method to invoke based on the arguments passed during the method call.
+
+   
+   returnType methodName(parameterType1 parameter1) {
+       // Method body
+   }
+
+   returnType methodName(parameterType1 parameter1, parameterType2 parameter2) {
+       // Method body
+   }
+   
+
+   Method overloading allows you to create methods with similar functionality but different input parameters, providing flexibility and convenience.
+
+6. Method Overriding:
+   In object-oriented programming, a subclass can override a method defined in its superclass to provide a different implementation. Method overriding allows for polymorphic behavior, where the appropriate method implementation is

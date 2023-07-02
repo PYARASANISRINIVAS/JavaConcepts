@@ -1,0 +1,107 @@
+Topic:- Arrays in java
+    > Arrays in Java are used to store a fixed-size sequence of elements of the same data type.
+    > Array can be created one (or) more.
+    > Specific element in an array is acessed by it's index.
+    > Arrays are fundamental data structures in Java, providing a way to store and manipulate collections of elements efficiently.
+    > Refernce datatypes/objects
+
+1. Array Declaration
+
+    Declaration:
+
+        > datatype arrayName[];
+          arrayName=new datatype[size];
+
+          combined:-    dataType[] arrayName = new dataType[length];
+         
+        > example:
+            int month_day[] = new int[30];
+
+        > "new" is the special operator that allocates the memory.
+
+2. Multidimensional Arrays:
+
+        >  2D Array
+            dataType[][] arrayName = new dataType[rows][columns];
+            int row=arrayName.length;
+            int col=arrayName[0].length;
+
+3. Array Access and Assignment
+
+        // Accessing elements
+        arrayName[index];
+
+        // Assigning values
+        arrayName[index] = value;
+
+        // Example
+        int firstNumber = numbers[0];      // Accessing the first element
+        names[2] = "John";                  // Assigning a value to the third element
+
+4. Iterating Over Arrays:
+
+        for (int i = 0; i < arrayName.length; i++) {
+            // Accessing array elements using index 'i'
+            // Perform operations on array elements
+        }
+
+        // Example
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println(scores[i]);      // Printing each element of the 'scores' array
+        }
+
+
+
+5. Array Manipulations
+
+    1. Array Initialization:
+            Arrays can be initialized during declaration or later using loops or assignment statements.
+            
+            int[] numbers = {1, 2, 3, 4, 5};  // Declaration and initialization
+
+            // Initializing array elements using loops or assignment statements
+            for (int i = 0; i < numbers.length; i++) {
+                numbers[i] = i + 1;
+            }
+
+    2. Array Traversal:
+            You can traverse an array and perform operations on each element using loops, such as the `for` loop.
+
+            int[] numbers = {1, 2, 3, 4, 5};
+
+            // Traversing array elements using a for loop
+            for (int i = 0; i < numbers.length; i++) {
+                System.out.println(numbers[i]);
+            }
+
+    3. Array Sorting:
+            Java provides the `Arrays` class, which offers various methods for sorting arrays. The `sort()` method can be used to sort arrays in ascending order.
+
+
+            int[] numbers = {5, 3, 1, 4, 2};
+
+            // Sorting array elements in ascending order
+            Arrays.sort(numbers);
+
+    4. Array Searching:
+            The `Arrays` class also provides methods for searching elements in arrays.
+            The `binarySearch()` method can be used to perform a binary search on a sorted array.
+            int[] numbers = {1, 2, 3, 4, 5};
+            int key = 3;
+
+            // Searching for the index of 'key' in the array
+            int index = Arrays.binarySearch(numbers, key);
+
+    5. Array Copying:
+        You can copy the elements of one array to another using various methods provided by the `System` class or the `Arrays` class. 
+        The `arraycopy()` method allows you to copy elements between arrays.
+            int[] sourceArray = {1, 2, 3, 4, 5};
+            int[] destinationArray = new int[sourceArray.length];
+
+            // Copying elements from 'sourceArray' to 'destinationArray'
+            System.arraycopy(sourceArray, 0, destinationArray, 0, sourceArray.length);
+            
+
+
+
+

@@ -2,6 +2,7 @@ Topic:- Strings In java
 
     > Strings represents the collection of sequence of characters.
     > Strings are Immutable in nature.
+    > TO make the String mutable we can make use of the StringBuilder.
 
 
 1. String Immutability
