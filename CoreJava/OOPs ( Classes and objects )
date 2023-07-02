@@ -1,0 +1,89 @@
+Topic:- Object Oriented Programming 
+    - classes and objects are used to represent the real world entity
+
+Note :- Is java a purely object oriented language?
+
+Ans:- Yes, Java is purely object oriented programming language when compared to old languages.
+      No, Java is not purely object oriented language because java doesn't support concepts like 
+            - Multiple inheritance 
+            - Operator Overloading
+            - Java deals with the primitives.
+
+> The main six pillars of oops concept
+    - classes 
+    - Object
+    - Abstraction
+    - Polymorphism
+    - Inheritance
+    - Encapsulation
+
+> classes
+
+    - Classes is a collection of object.
+    - Class is not a real time entity.
+    - It is just an template (or) blue print (or) prototype
+    - class will not have memory because it is not an real time entity.
+    - class is a group of object which have common properties
+    - syntax:-
+
+        acessmodifier class className{
+            -- methods
+            -- constructor
+            -- blocks
+            -- fields
+            -- nested class
+        } 
+    - example:-
+        
+        public class Test{
+
+        }
+
+
+> object
+
+    - object is an real world entity. so occupies some space.0
+    - object can be defined as the instance of the class.
+    - Object has state & behaviour.
+        -- state/properties -> variables.
+        -- behaviour/menbers -> methods.
+    - Each object has the unique identity (JVM creates Identity). This id is assigned by JVM.
+    - An object contains an address and takes some space in memory
+
+> "this" keyword
+    - "this" keyword refers to the current object 
+    
+> Object creation.
+    - Pen pen1 =new Pen();
+
+> "New" Keyword
+    - When i mention "new" keyword In the memory heap a space will be allocated in that space the whole object(s1). will get stored with the given name(eg: s1).  
+> "Pen()" constructor
+    - The costructor means to build.
+    - The work of the constructor in java is to construct the object.
+
+
+
+> Real time example of classes and object :-
+
+        class Pen{
+            String color;                                           // Properties / state
+            String type;                                            
+            public void write(){                                    //Methods    
+                System.out.println("writing something");
+            }
+            public void printColor(){
+                System.out.println(this.color);
+                System.out.println(this.type);
+            }
+        }
+        public class Oops{
+            public static void main(String[] args){
+                Pen pen1 = new Pen();
+                pen1.color="Blue";
+                pen1.type="Ball";
+                pen1.printColor();
+            }
+        }
+
+
